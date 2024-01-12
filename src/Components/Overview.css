@@ -1,0 +1,16 @@
+.parallax-effect-glare-scale{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    margin: 40px;
+    border-width: 2px;
+    border-style: solid;
+    border-image: linear-gradient(to right, rgba(0,0,139,0.813),rgb(173,96,212)) 1; 
+    transform-style: preserve-3d;
+}
+.orange:hover {
+    box-shadow: 0 4px 8px rgba(240, 159, 8, 0.905);
+}
