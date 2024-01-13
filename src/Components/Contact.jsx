@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <div>
         {/* contact info */}
-      <div className="flex-row items-center pl-5 justify-center pt-3" id="Overview">
+      <div className="flex-row items-center pl-5 justify-center pt-3" id="Contact">
         <span className={Styles.sectionHeadText}>Contact-Us</span>
         <hr className="w-[35%]" />
       </div>

@@ -39,9 +39,9 @@ const Overview = () => {
             {technologies.map((technology)=>(
                  <div key={technology.title} className=" orange m-4 mt-5 h-[100px] w-[100px] rounded-3xl shadow-2xl border-[1px] border-violet-400">
                     <img className="p-2 " src={technology.icon} alt={technology.title} />
-                    {/* <div className="text-violet-600 justify-center flex">
+                    <div className="text-violet-600 justify-center flex">
                         {technology.title}
-                    </div> */}
+                    </div>
                 </div>
             ))}
       </div>

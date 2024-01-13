@@ -8,7 +8,7 @@ const Projects = () => {
   return (
     <div>
       {/* Project description */}
-        <div className="flex-row items-center pl-5 justify-center pt-3"  style={{ backgroundColor: "#FFF1DD" }} id="Overview">
+        <div className="flex-row items-center pl-5 justify-center pt-3"  style={{ backgroundColor: "#FFF1DD" }} id="Projects">
             <span className={Styles.sectionHeadText}>Projects</span>
             <hr className="w-[35%]" />
             <div className={Styles.sectionText}>
