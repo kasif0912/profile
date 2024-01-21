@@ -88,7 +88,7 @@ const projects=[
         color:"pink-text-gradient",
       }
     ],
-    image:pro1,
+    image:pro2,
     source_code_link:"https://github.com/kasif0912/college-diary/",
     source_deploy_link:"https://niist-campus-update.netlify.app/"
   },
@@ -109,7 +109,7 @@ const projects=[
         color:"pink-text-gradient",
       }
     ],
-    image:pro2,
+    image:pro1,
     source_code_link:"https://github.com/kasif0912/college-diary/",
     source_deploy_link:"https://niist-campus-update.netlify.app/"
   },

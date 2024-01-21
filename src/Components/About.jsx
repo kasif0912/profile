@@ -3,12 +3,15 @@ import profile from "../assets/profile.svg";
 import { Styles } from "../utils/Style";
 import Resume from "../assets/ali.pdf";
 import { TiArrowDownOutline } from "react-icons/ti";
-import '../App.css'
-import './About.css'
+import "../App.css";
+import "./About.css";
 
 const About = () => {
   return (
-    <div className="flex flex-wrap justify-center items-center mt-10 p-10" id="Home">
+    <div
+      className="flex flex-wrap justify-center items-center mt-10 p-10"
+      id="Home"
+    >
       <div className="flex-1">
         <span className={Styles.heroHeadText}>
           Hi, I'm <span className="text-orange-600">Kasif</span>
@@ -32,7 +35,12 @@ const About = () => {
       </div>
       {/* for  image */}
       <div className=" image flex flex-wrap">
-        <img src={profile} alt="profile" className="element object-contain p-4" style={{ width: "100%", height: "70vh", marginTop: "20px" }}/>
+        <img
+          src={profile}
+          alt="profile"
+          className="element object-contain p-4"
+          style={{ width: "100%", height: "70vh", marginTop: "20px" }}
+        />
       </div>
     </div>
   );
